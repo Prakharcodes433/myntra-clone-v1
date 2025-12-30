@@ -1,0 +1,40 @@
+@import url('fonts.googleapis.com');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Assistant, sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.myntrahome {
+  height: 40px;
+}
+
+
+.banner_image {
+  width: 100%;
+}
+
+
+.category_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0 40px;
+}
+
+.sale_item,
+.sale_itemm {
+  width: 250px;
+  border-radius: 4px;
+}
